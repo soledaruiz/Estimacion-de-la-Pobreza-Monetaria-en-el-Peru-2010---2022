@@ -1,4 +1,4 @@
-# Descarga de las Sumarias para el cálculo de indicadores de Pobreza
+* Descarga de las Sumarias para el cálculo de indicadores de Pobreza
 
 clear all
 set more off
@@ -32,7 +32,7 @@ save "`var2'", replace
 
 
 * Cambiamos las bases a codigo latino
-forvalues i = 2010/2021 {
+forvalues i = 2010/2022 {
 unicode analyze sumaria-`i'.dta
 unicode encoding set ISO-8859-1 
 unicode translate sumaria-`i'.dta 
