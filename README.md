@@ -1,2 +1,2 @@
-# SCRAPING-ENAHO
-Este repositorio contiene la codificación para la extracción de bases de datos de la web de microdatos del INEI - PERÚ (ENAHO)
+# NOTA
+Para la extracción de las bases de datos se recomienda usar el programa Stata 13.
