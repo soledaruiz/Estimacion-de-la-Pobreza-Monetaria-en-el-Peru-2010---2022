@@ -1,0 +1,31 @@
+# Descarga de las Sumarias para el cálculo de indicadores de Pobreza
+
+clear all
+set more off
+cls
+
+
+* Descargarmos las bases del portal de microdatos del INEI
+* Nota: Descarga con Stata anteriores a la versión 16
+
+local path "C:\Users\sruiz\Desktop\sumarias_enaho"
+cd "`path'"
+!rmdir "`path'" /s /q
+local code "279 291 324 404 440 498 546 603 634 687 737 759 784"
+
+foreach var of local code {
+	forvalues i = 2010/2022 {
+	quietly dis `var'
+	quietly tempfile data`var'
+	quietly copy "http://iinei.inei.gob.pe/iinei/srienaho/descarga/STATA/`var'-Modulo34.zip" `data`var''.zip, replace
+	quietly unzipfile `data`var''.zip
+	quietly cap cd "`path'\\`var'-Modulo34"
+	quietly local dta: dir . file "sumaria-`i'.dta"
+	quietly dis `dta'
+foreach var2 of local dta {
+use "`var2'", clear
+cd "`path'"
+save "`var2'", replace 
+}
+}
+}
