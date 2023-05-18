@@ -15,10 +15,11 @@ debajo del valor de la línea de pobreza o del valor de la línea de extrema pob
 la línea de pobreza. Por último, se calcula la severidad de la pobreza (P2), que mide la desigualdad entre 
 los pobres. 
 
-Por otro lado, se presenta la codificación del coeficiente de Gini, este indicador es importante en el análisis 
-de la distribución de la riqueza, dado que, mide la desigualdad en el ingreso, y cuya cifra oscila entre cero 
-y uno, donde un valor de cero se traduce en una perfecta igualdad en la distribución del ingreso, y uno, la 
-perfecta desigualdad, asimismo, este indicador se representa a través de la curva de Lorenz. 
+Por otro lado, se presenta la codificación de la estimación del coeficiente de Gini, este indicador es 
+importante en el análisis de la distribución de la riqueza, dado que, mide la desigualdad en el ingreso, 
+y cuya cifra oscila entre cero y uno, donde un valor de cero se traduce en una perfecta igualdad en la 
+distribución del ingreso, y uno, la perfecta desigualdad, asimismo, este indicador se representa a través 
+de la curva de Lorenz. 
 
 ¹ Instituto Nacional de Estadística e Informática, Evolución de la Pobreza Monetaria 2009 - 2015. (2016).
 [(https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1347/index.html)](https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1347/index.html)
