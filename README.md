@@ -23,3 +23,5 @@ de la curva de Lorenz.
 
 ¹ Instituto Nacional de Estadística e Informática, Evolución de la Pobreza Monetaria 2009 - 2015. (2016).
 [(https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1347/index.html)](https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1347/index.html)
+
+![pob1](https://github.com/soledaruiz/Estimacion-de-la-Pobreza-Monetaria-en-el-Peru-2010---2022/assets/129969202/2ccb687c-4bbb-4da9-b958-2a2d185432d4)
